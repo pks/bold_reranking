@@ -3,7 +3,6 @@
 require 'zipf'
 require 'bloom-filter'
 
-
 class FeatureFactory
 
   def initialize cfg
@@ -273,7 +272,6 @@ def main
   WriteFile.write model.to_s+"\n", output_model if output_model
   output.close
 end
-
 
 main
 
